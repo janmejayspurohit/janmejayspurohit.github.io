@@ -86,4 +86,19 @@
       event.preventDefault();
     }
   });
+
+  function getAge(dateArray = []) {
+    const decoder = new TextDecoder();
+    let dateString = decoder.decode(dateArray);
+    let today = new Date();
+    let birthDate = new Date(dateString);
+    let age = today.getFullYear() - birthDate.getFullYear();
+    let m = today.getMonth() - birthDate.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+      age--;
+    }
+    return age;
+  }
+  const myAge = getAge(new Uint8Array([49, 57, 57, 55, 45, 49, 48, 45, 50, 57]));
+  $("#basicage").prepend(`Age: ${myAge}<br>`);
 })(jQuery);
