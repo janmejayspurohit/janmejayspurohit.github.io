@@ -6,22 +6,22 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
 <url>
-  <loc>https://www.janmejay.gq/</loc>
+  <loc>https://www.janmejay.info/</loc>
   <lastmod>2021-04-20T00:37:54+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.janmejay.gq/index.html</loc>
+  <loc>https://www.janmejay.info/index.html</loc>
   <lastmod>2021-04-20T00:37:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.janmejay.gq/work.html</loc>
+  <loc>https://www.janmejay.info/work.html</loc>
   <lastmod>2021-04-20T00:37:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.janmejay.gq/project.html</loc>
+  <loc>https://www.janmejay.info/project.html</loc>
   <lastmod>2021-04-20T00:37:54+00:00</lastmod>
   <priority>0.80</priority>
 </url>
